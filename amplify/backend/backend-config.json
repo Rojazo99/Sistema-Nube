@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "sistemanube88fc5db1": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
