@@ -55,7 +55,7 @@ async function createNote() {
 
   return (
     <div className="App">
-      <h1>MIS NOTAS</h1>
+      <h1>MIS NOTAS SISTEMA NUBE</h1>
       <input
         onChange={e => setFormData({ ...formData, 'name': e.target.value})}
         placeholder="NOMBRE DE LA NOTA"
@@ -70,7 +70,7 @@ async function createNote() {
         type="file"
         onChange={onChange}
         />
-      <button onClick={createNote}>Create Note</button>
+      <button onClick={createNote}>Crear Nota</button>
       <div style={{marginBottom: 30}}>
       {
         notes.map(note => (
